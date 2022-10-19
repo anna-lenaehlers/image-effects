@@ -27,6 +27,8 @@ async function init() {
   input.addEventListener('change', () => {
     fileReader.readAsDataURL(input.files[0]);
   })
+  
+  console.log('test');
 }
 
 init();
