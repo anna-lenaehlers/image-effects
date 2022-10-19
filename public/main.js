@@ -7,6 +7,8 @@ async function init() {
     console.error(e);
     return;
   }
+  
+  // Test comment
 
   const input = document.getElementById('upload');
   const fileReader = new FileReader();
