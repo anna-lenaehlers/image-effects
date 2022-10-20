@@ -28,7 +28,6 @@ async function init() {
     fileReader.readAsDataURL(input.files[0]);
   })
   
-  console.log('test');
 }
 
 init();
